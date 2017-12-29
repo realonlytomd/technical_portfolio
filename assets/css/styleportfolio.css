@@ -1,0 +1,239 @@
+body {
+	background-color: #ffffff; 
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: relative;
+	padding: 25px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	width: 240px;
+	font-size: 30px;
+	left: 230px;
+	float: left;
+}
+
+#links-to-pages {
+	float: left;
+	margin-left: 620px;
+	padding: 30px;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding-right: 20px;
+    background-color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+#content {
+	clear: both;
+	background-color: silver;
+	/* background-image: url("rockywall.png"); */
+	width: 1024px;
+	height: 740px;
+	margin: 0 auto 0 auto;
+}
+
+#main-bio {
+	float: left;
+	background-color: #ffffff;
+	width: 650px;
+	margin-left: 80px;
+	margin-top: 30px;
+	border: 1px solid #dddddd;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	padding: 30px;
+}
+
+#pic-text {
+	border-top: 1px solid #dddddd;
+	padding-top: 20px;
+}
+
+img {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	margin-left: 00px;
+	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contact-me {
+	line-height: 28px;
+	margin-left: 33px;
+}
+
+input {
+	margin-left: 3px;
+	width: 90%;
+	padding: 8px;
+}
+
+#input3 {
+	margin-left: 3px;
+	width: 90%
+	height: 140px;
+}
+
+#input4 {
+	width: 100px;
+	margin-left: 3px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+#massage {
+	position: relative;
+}
+
+#hmassage {
+	position: absolute;
+	top: 350px;
+	width: 175px;
+	margin-left: 20px;
+	background-color: #4aaaa5;
+	padding: 12px;
+	text-align: center;
+	
+}
+
+#kinesiology {
+	position: relative;
+}
+
+#hkinesiology {
+	position: absolute;
+	top: 350px;
+	right: 603px;
+	width: 176px;
+	background-color: #4aaaa5;
+	padding: 12px;
+	text-align: center;
+}
+
+#drinks {
+	position: relative;
+}
+
+#hdrinks {
+	position: absolute;
+	top: 550px;
+	right: 843px;
+	width: 176px;
+	background-color: #4aaaa5;
+	padding: 12px;
+	text-align: center;
+}
+
+#health {
+	position: relative;
+}
+
+#hhealth {
+	position: absolute;
+	top: 551px;
+	right: 603px;
+	width: 176px;
+	background-color: #4aaaa5;
+	padding: 12px;
+	text-align: center; 
+}
+
+#diet {
+	position: relative;
+}
+
+#hdiet {
+	position: absolute;
+	top: 751px;
+	right: 843px;
+	background-color: #4aaaa5;
+	padding: 12px;
+	width: 176px;
+	text-align: center; 
+}
+
+#connect-to-me {
+	float: left;
+	margin: 0;
+	position: relative;
+	background-color: #ffffff;
+	width: 215px;
+	height: 200px;
+	border: 1px solid #dddddd;
+	margin-top: 30px;
+	left: 20px;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 20px;
+	border-bottom: 1px solid #dddddd;
+}
+
+#social {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 14px;
+    overflow: hidden;
+}
+
+#sites {
+    float: left;
+    margin-right: -20px;
+}
+
+#sites a {
+    display: block;
+    padding-right: 0px;
+    background-color: white;
+}
+
+footer {
+	clear: both;
+	position: sticky;
+	margin-top: 60px;
+	background-color: #666666;
+	padding: 30px;
+	text-align: center;
+	border-top: 4px solid #4aaaa5;
+	bottom: 0
+}
