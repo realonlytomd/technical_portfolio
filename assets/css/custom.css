@@ -2,9 +2,31 @@ body{
 	background-color: #dcece9;
 }
 
+.parallax1 {
+    background-image: url("../images/parallax1.jpg");
+
+    height: 1024px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pageHeight {
+	height: 1024px;
+}
+
 .custom-image{
 	margin: 0 20px 20px 0;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 
 p{
 	font-family: Verdana, Geneva, sans-serif;
