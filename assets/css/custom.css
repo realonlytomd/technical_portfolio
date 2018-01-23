@@ -2,6 +2,10 @@ body{
 	background-color: #dcece9;
 }
 
+h1, h2, h3, h4, p, a, footer {
+	font-family: 'Changa', sans-serif;
+}
+
 .parallax1 {
     background-image: url("../images/parallax1.jpg");
 
@@ -52,6 +56,19 @@ body{
 	margin: auto;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: #006a66;
+}
+
+h1{
+	color: #006a66;
+}
+
 h2{
 	margin-top: 80px;
 	text-align: center;
@@ -59,7 +76,6 @@ h2{
 }
 
 p{
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 120%;
 }
 
