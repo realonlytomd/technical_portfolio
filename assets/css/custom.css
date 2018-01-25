@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: #dcece9;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, p, a, footer {
     background-size: cover;
 }
 
-.custom-image{
+.custom-image {
 	margin: 0 20px 20px 0;
 }
 
@@ -65,32 +65,32 @@ a:hover {
 	text-decoration-color: #006a66;
 }
 
-h1{
+h1 {
 	color: #006a66;
 }
 
-h2{
+h2 {
 	margin-top: 80px;
 	text-align: center;
 	color: #006a66;
 }
 
-p{
+p {
 	font-size: 120%;
 }
 
-footer{
+footer {
 	background-color: #dcece9;
 	border-top: 4px solid #006a66;
 	padding: 30px;
 	color: #006a66;
 }
 
-h3{
+h3 {
 	color: #006a66;
 }
 
-h4{
+h4 {
 	background-color: #71bbac;
 	width: 300px;
 	text-align: center;
@@ -101,8 +101,16 @@ h4{
 	top: 0px;
 }
 
-#trivia-text{
+#trivia-text {
 	padding: 25px;
+}
+
+#burger-text {
+	padding: 20px;
+}
+
+#ff-text {
+	padding: 29px
 }
 
 .custom-btn {
