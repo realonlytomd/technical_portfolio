@@ -1,5 +1,6 @@
 body {
 	background-color: #dcece9;
+	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, p, a, footer, .centered {
@@ -110,6 +111,14 @@ h4 {
 	padding: 25px;
 	position: relative;
 	top: 0px;
+}
+
+.zoom {
+	transition: transform .2s;
+}
+
+.zoom:hover {
+	transform: scale(1.5);
 }
 
 #trivia-text {
