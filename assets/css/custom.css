@@ -118,7 +118,7 @@ h4 {
 }
 
 .zoom:hover {
-	transform: scale(1.5);
+	transform: scale(1.5) translateY(-18px);
 }
 
 #trivia-text {
